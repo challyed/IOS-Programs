@@ -9,7 +9,12 @@
 #include <stdio.h>
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+    int a;
+    int b;
+    int c;
+    a= 5;
+    b = a;
+    c = a*b;
+    printf("\"%d\" sqaured is " "\"%d\"\n", a, c);
     return 0;
 }
